@@ -6,7 +6,7 @@ async function query(queryObject) {
     port: "5432",
     user: "postgres",
     database: "postgres",
-    password: "local_password",
+    password: "123456",
   });
   await client.connect();
   const result = await client.query(queryObject);
